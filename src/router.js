@@ -5,10 +5,14 @@ import contact from '@iconify/icons-ic/contact-mail';
 import linkChain from '@iconify/icons-akar-icons/link-chain';
 import { HomeContent } from './layout/home.content';
 import { ProjectsContent } from './layout/projects.content';
+import { EducationContnent } from './layout/education.content';
+import { ContactContnent } from './layout/contact.content';
+import { LinkContnent } from './layout/link.content';
+
 
 export const routes = [
     {
-        "name": "Home Page",
+        "name": "Portfolio",
         "path": "/",
         "icon": personFill,
         "component":  HomeContent
@@ -23,18 +27,18 @@ export const routes = [
         "name": "Education",
         "path": "/education",
         "icon": education,
-        "component":  HomeContent
+        "component":  EducationContnent
     },
     {
         "name": "Contact",
         "path": "/contact",
         "icon": contact,
-        "component":  HomeContent
+        "component":  ContactContnent
     },
     {
         "name": "Social",
         "path": "/social",
         "icon": linkChain,
-        "component":  HomeContent
+        "component":  LinkContnent
     }
 ];
