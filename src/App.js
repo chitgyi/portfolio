@@ -1,5 +1,5 @@
 import './index';
-import { AppLayout } from './layout/app.layout';
+import { AppLayout } from './layout/base/app.layout';
 
 function App() {
   return (
